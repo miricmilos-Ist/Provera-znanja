@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE artikli SYSTEM "magacin.dtd">
-<artikli>
+<artikli xmlns="http://www.w3schools.com"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3schools.com magacin.xsd">
   <artikal>
 
     <naziv sifra="m55">Jabuka</naziv>
@@ -11,14 +13,16 @@
       <godina>1939</godina>
     </datumIzrade>
 
+    <cena valuta="RSD">150</cena>
+
     <kompanijaProdavca>
       <ime>naziv</ime>
       <adresa>Vojvode stepe 452</adresa>
       <adresa>Vracar</adresa>
     </kompanijaProdavca>
 
-    <email tip="privatni">mail@gmail.com</email>
-    <email tip="sluzbeni">mail2@gmail.com</email>
+    <email tip="privatni">fdfl@gmail.com</email>
+    <email tip="sluzbeni">maS21Sil@gmail.com</email>
     
   </artikal>
 </artikli>
