@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-
+<!DOCTYPE artikli SYSTEM "magacin.dtd">
 <artikli>
   <artikal>
 
-    <naziv sifra="0215">Jabuka</naziv>
+    <naziv sifra="m55">Jabuka</naziv>
 
     <datumIzrade>
       <dan>2</dan>
