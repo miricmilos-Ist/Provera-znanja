@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Svi artikli</title>
+</head>
+<body>
+
+
+    <form action="/dodaj" method="POST">
+        <input type="number" name="id" placeholder="id"><br>
+        <input type="text" name="naziv" placeholder="naziv"><br>
+        <input type="number" name="cena" placeholder="cena"><br>
+        <input type="text" name="imeKompanije" placeholder="imeKompanije"><br>
+        <hr>
+        <button type="submit">Dodaj</button>
+    </form>
+
+</body>
+</html>    <h1>Artikli</h1>
+    <hr>
+
+    <section id="sviartikli">
+        ${naziv} | ${cena} | ${imeKompanije} | 
+        <form action='/obrisi?id=${id}' method="POST">
+            <button type="submit">Obrisi</button>
+        </form>
+        
+    </section>
+    <hr>
+    <a href="/dodaj">Novi artikal</a>
