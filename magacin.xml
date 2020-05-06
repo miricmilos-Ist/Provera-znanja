@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<artikli>
+  <artikal>
+
+    <naziv sifra="0215">Jabuka</naziv>
+
+    <datumIzrade>
+      <dan>2</dan>
+      <mesec>4</mesec>
+      <godina>1939</godina>
+    </datumIzrade>
+
+    <kompanijaProdavca>
+      <ime>naziv</ime>
+      <adresa>Vojvode stepe 452</adresa>
+      <adresa>Vracar</adresa>
+    </kompanijaProdavca>
+
+    <email tip="privatni">mail@gmail.com</email>
+    <email tip="sluzbeni">mail2@gmail.com</email>
+    
+  </artikal>
+</artikli>
