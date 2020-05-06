@@ -9,6 +9,9 @@
 <!ELEMENT mesec (#PCDATA)>
 <!ELEMENT godina (#PCDATA)>
 
+<!ELEMENT cena (#PCDATA)>
+<!ATTLIST cena valuta (RSD|EUR) "RSD">
+
 <!ELEMENT kompanijaProdavca (ime, (adresa)+)>
 <!ELEMENT ime (#PCDATA)>
 <!ELEMENT adresa (#PCDATA)>
