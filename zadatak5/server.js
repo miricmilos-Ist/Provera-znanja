@@ -102,6 +102,8 @@ http.createServer((req, res) => {
                 res.end();
             });
         }
+
+        if(urlobj.pa)
     }
 }).listen(8080);
 
